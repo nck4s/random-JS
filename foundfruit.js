@@ -4,9 +4,9 @@ const found = [];
 function findFruit(fruits, searchPhrase) {
     const foundFruit = fruits.find(fruit => fruit === searchPhrase);
     if (foundFruit) {
-        console.log(searchPhrase + ' was found!');
+        console.log(searchPhrase + ' were found!');
     } else {
-        console.log(searchPhrase + ' was not found!');
+        console.log(searchPhrase + ' were not found!');
     }
     }
     findFruit(fruits, 'pears');
